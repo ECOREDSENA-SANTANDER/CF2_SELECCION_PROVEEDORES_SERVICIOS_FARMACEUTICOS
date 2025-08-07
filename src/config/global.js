@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Evaluación y contratación en el sector farmacéutico',
+    Description:
+      'Desarrolla competencias clave en los profesionales del sector salud para la evaluación, negociación y contratación de proveedores farmacéuticos, con base en criterios técnicos, normativos y comerciales. Fomenta el uso de herramientas especializadas para el análisis, comparación y categorización de oferentes, fortaleciendo la toma de decisiones responsables en los procesos de adquisición. Además, orienta la formulación de estrategias de abastecimiento que garanticen la calidad, trazabilidad y cumplimiento regulatorio en la gestión de medicamentos e insumos médicos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,29 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Convocatoria de proveedores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Negociación con proveedores en el contexto farmacéutico colombiano',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Evaluación técnica y categorización de proveedores farmacéuticos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Contratación en servicios farmacéuticos: tipos, normativa y cláusulas',
         desarrolloContenidos: true,
       },
     ],
