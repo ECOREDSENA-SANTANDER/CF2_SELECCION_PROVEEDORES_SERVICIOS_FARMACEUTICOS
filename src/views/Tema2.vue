@@ -86,18 +86,36 @@
               p #[b Cumplimiento normativo:] debe regirse por leyes como la Ley 100 de 1993, Resolución 1403 de 2007 y normativas del INVIMA. En entidades públicas aplica además la Ley 80 de 1993, Ley 1150 de 2007 y el Decreto 1082 de 2015. El incumplimiento puede derivar en sanciones por parte de la Superintendencia Nacional de Salud.
 
 
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-start.mb-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-4
             h3.bg4.py-2.w-card-text2 Buenas prácticas de negociación
 
 
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.fondo_tarjeta.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/Tema2/01.svg' alt='')
+          p #[b 1. Establecer condiciones claras:] tiempos de entrega, condiciones de almacenamiento, cobertura territorial, vida útil del producto.
 
+        .tarjeta.fondo_tarjeta.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/Tema2/02.svg' alt='')
+          p #[b 2. Verificar documentación del proveedor:] registro sanitario, certificaciones BPM / BPA, fichas técnicas, experiencia previa, y capacidad de respuesta.
 
+        .tarjeta.fondo_tarjeta.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/Tema2/03.svg' alt='')
+          p #[b 3. Considerar más allá del precio:] soporte técnico, garantías, logística y políticas de devolución.
 
-
-
-
+        .tarjeta.fondo_tarjeta.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/Tema2/04.svg' alt='')
+          p #[b 4. Documentar el proceso:] actas firmadas, matrices comparativas, justificaciones técnicas y registros contractuales. 
 
 
 
