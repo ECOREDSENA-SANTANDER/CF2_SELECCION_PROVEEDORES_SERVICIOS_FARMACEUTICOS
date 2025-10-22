@@ -118,9 +118,9 @@ export default {
     {
       tema: 'Convocatoria de proveedores',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023). Técnicas de clasificación de proveedores.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023). Convocatoria de proveedores.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Zj_V-_ky_5c',
+      link: 'https://www.youtube.com/watch?v=5gBILC2yuC0',
     },
   ],
   glosario: [
